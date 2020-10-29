@@ -1,6 +1,0 @@
-framework module Go2GlobalSDK {
-  umbrella header "Go2GlobalSDK.h"
-
-  export *
-  module * { export * }
-}

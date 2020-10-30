@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name              = "iLocalizeSDK"
-  s.version           = "0.0.0.1"
+  s.version           = "1.4.0"
   s.summary           = "iLocalizeSDK for iOS"
   s.homepage          = "https://github.com/iLocalize/sdk-ios-example"
   s.license      = { :type => "Apache-2.0", :file => "LICENSE" }
@@ -14,8 +14,6 @@ Pod::Spec.new do |s|
   s.resources    = 'iLocalizeSDK/iLocalizeSDK.bundle'
   s.vendored_frameworks = 'iLocalizeSDK/iLocalizeSDK.framework'
   s.library = 'sqlite3'
-  s.dependency 'Masonry', '~> 1.1.0'
-  s.dependency 'IQKeyboardManager', '~> 6.5.6'
   s.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 armv7 arm64' }
 end
 

@@ -90,5 +90,7 @@ typedef void (*GGTranslationPreparedCallback)(bool success);
 + (void)evaluateStringWithCode:(NSString *)code;
 
 + (void)setUserConfig:(iLocalizeUserConfig *)config;
+
++ (void)evaluateAllStrings;
 @end
 

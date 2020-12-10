@@ -93,5 +93,6 @@ typedef void (*GGTranslationPreparedCallback)(bool success);
 
 + (void)evaluateAllStrings;
 
++ (void)checkStringOverflow:(iLCheckOverflowConfig *)config;
 @end
 

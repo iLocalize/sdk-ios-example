@@ -92,5 +92,6 @@ typedef void (*GGTranslationPreparedCallback)(bool success);
 + (void)setUserConfig:(iLocalizeUserConfig *)config;
 
 + (void)evaluateAllStrings;
+
 @end
 

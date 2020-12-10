@@ -87,7 +87,7 @@ typedef void (*GGTranslationPreparedCallback)(bool success);
  */
 + (void)setLogEnable:(BOOL)enable;
  
-+ (void)evaluateStringWithCode:(NSString *)code;
++ (void)evaluateStringWithCode:(NSString *)code stringContent:(NSString *)stringContent;
 
 + (void)setUserConfig:(iLocalizeUserConfig *)config;
 

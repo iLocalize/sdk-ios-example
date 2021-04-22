@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name              = "iLocalizeSDK"
-  s.version           = "1.4.3"
+  s.version           = "1.5.6"
   s.summary           = "iLocalizeSDK for iOS"
   s.homepage          = "https://github.com/iLocalize/sdk-ios-example"
   s.license      = { :type => "Apache-2.0", :file => "LICENSE" }
